@@ -1,0 +1,41 @@
+﻿@section Banner {
+    <div class="jumbotron jumbotron-fluid jumbotron-blue">
+        <div class="container">
+            <h1 class="display-4">Rental Insurance</h1>
+            <p class="lead">You might not own the home, but you own the stuff.</p>
+        </div>
+    </div>
+}
+
+@section SideNav {
+    @Html.Partial("LeftNav")
+}
+<p>After you complete this form you should receive an email with your quote shortly after. Please allow up to 1 hour to receive your quote.</p>
+
+<form>
+    <hr class="featurette-divider-thin">
+
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Property Type</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>House</option>
+            <option>Condo</option>
+            <option>Apartment</option>
+            <option>Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Monthly Rent</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Monthly Rent">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Number of Tenants</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Number of Tenants">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Lease Length</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Lease Length">
+    </div>
+
+    @Html.Partial("Person")
+</form>

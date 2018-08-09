@@ -1,0 +1,67 @@
+﻿body {
+    padding-top: 30px !important;
+    padding-bottom: 20px;
+}
+
+.validation-summary-errors {
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.nav-item a {
+    color: #aaa;
+}
+
+.jumbotron-green {
+    background-color:#28a745;
+    color: white;
+}
+
+.jumbotron-blue {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.jumbotron-yellow {
+    background-color: #ffc107;
+    color: white;
+}
+
+.featurette-divider-thin {
+    margin: 2rem 0 !important;
+}
+
+.featurette-divider {
+    margin: 3rem 0 !important;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.meter {
+    margin: 10px 0 25px 0;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+#qrCode {
+    margin: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-caption {
+        display: none;
+    }
+}
